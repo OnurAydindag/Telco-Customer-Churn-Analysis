@@ -121,7 +121,7 @@ The Power BI dashboard provides interactive visualizations with drill-down capab
 ## 📫 Contact
 
 **Onur Aydındağ**
-- LinkedIn: [linkedin.com/in/onur-aydindag](www.linkedin.com/in/onur-aydındağ-aa528a216)
+- LinkedIn: [[linkedin.com/in/onur-aydindag](www.linkedin.com/in/onur-aydındağ-aa528a216)](https://www.linkedin.com/in/onur-ayd%C4%B1nda%C4%9F-aa528a216/)
 
 ---
 
