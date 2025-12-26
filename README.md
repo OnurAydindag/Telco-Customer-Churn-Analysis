@@ -100,13 +100,13 @@ Created 21 SQL queries covering:
 - Churn distribution pie chart
 - Churn by contract type, internet service, and payment method
 
-![Power BI Executive Summary](images/powerbi_executive_summary.png)
+![Power BI Executive Summary](images/dashboard_executive_summary.png)
 
 **Demographics Page:**
 - Churn by gender, partner status, and dependents
 - Customer distribution by tenure (histogram)
 
-![Power BI Demographics](images/powerbi_demographics.png)
+![Power BI Demographics](images/dashboard_demographics.png)
 
 ## 💡 Business Recommendations
 
