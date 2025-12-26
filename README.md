@@ -1,5 +1,8 @@
 # Telco Customer Churn Analysis & Retention Strategy
 
+> An end-to-end churn analysis identifying high-risk customer segments and actionable retention strategies that could potentially reduce churn by targeting month-to-month and electronic payment users.
+
+
 ## 📊 Project Overview
 
 This project presents a comprehensive analysis of customer churn patterns in the telecommunications industry. Using a dataset of 7,043 customers, I performed end-to-end data analysis—from data cleaning and exploratory analysis to SQL queries and interactive dashboard creation—to identify key factors contributing to customer attrition and provide actionable insights for retention strategies.
@@ -139,8 +142,3 @@ The Power BI dashboard provides interactive visualizations with drill-down capab
 
 **Onur Aydındağ**
 - LinkedIn: [linkedin.com/in/onur-aydındağ](https://www.linkedin.com/in/onur-ayd%C4%B1nda%C4%9F-aa528a216/)
-- GitHub: [github.com/OnurAydindag](https://github.com/OnurAydindag)
-
----
-
-*This project was created as part of my Data Analyst portfolio to demonstrate end-to-end analytical capabilities.*
