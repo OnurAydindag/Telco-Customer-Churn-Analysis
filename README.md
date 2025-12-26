@@ -33,6 +33,7 @@ Customer churn is a critical challenge in the telecom industry, directly impacti
 ```
 Telco-Customer-Churn-Analysis/
 │
+├── images/                               # Dashboard and analysis visualizations
 ├── telco_customer_churn.csv              # Original dataset (7,043 rows, 21 columns)
 ├── telco_customer_churn_cleaned.csv      # Cleaned dataset
 ├── telco_churn_data_cleaning.ipynb       # Data cleaning & quality checks
@@ -52,15 +53,20 @@ Telco-Customer-Churn-Analysis/
 - **Result:** 100% clean data with 0 missing values
 
 ### 2. Exploratory Data Analysis (Python)
+
 Performed comprehensive analysis across six key areas:
 
 **Demographic Analysis:**
 - Senior citizens show 41% higher churn rate
 - Customers without partners: 33% churn vs 20% with partners
 
+![Churn Distribution](images/python_churn_distribution.png)
+
 **Service Usage:**
 - Fiber optic users: 42% churn (highest among internet services)
 - Customers without tech support: 42% churn vs 15% with support
+
+![Contract Analysis](images/python_contract_analysis.png)
 
 **Contract & Payment:**
 - Month-to-month contracts: 43% churn vs 3% for two-year contracts
@@ -69,6 +75,14 @@ Performed comprehensive analysis across six key areas:
 **Financial Analysis:**
 - Churned customers pay $13/month MORE on average
 - Average tenure: 18 months (churned) vs 38 months (retained)
+
+![Tenure Distribution](images/python_tenure_distribution.png)
+
+**Correlation Analysis:**
+- Strong negative correlation between tenure and churn (-0.35)
+- Positive correlation between monthly charges and churn (+0.19)
+
+![Correlation Heatmap](images/python_correlation_heatmap.png)
 
 ### 3. SQL Analysis (PostgreSQL)
 Created 21 SQL queries covering:
@@ -86,9 +100,13 @@ Created 21 SQL queries covering:
 - Churn distribution pie chart
 - Churn by contract type, internet service, and payment method
 
+![Power BI Executive Summary](images/powerbi_executive_summary.png)
+
 **Demographics Page:**
 - Churn by gender, partner status, and dependents
 - Customer distribution by tenure (histogram)
+
+![Power BI Demographics](images/powerbi_demographics.png)
 
 ## 💡 Business Recommendations
 
@@ -108,20 +126,20 @@ Created 21 SQL queries covering:
    - Focus retention efforts on customers in first 12 months
    - Target customers without partners/dependents with engagement programs
 
-## 📊 Dashboard Preview
+## 📊 Interactive Dashboards
 
-The Power BI dashboard provides interactive visualizations with drill-down capabilities:
+The Power BI dashboard provides interactive visualizations with drill-down capabilities for deeper analysis. Download the `.pbix` file to explore:
 - Executive summary with key metrics
 - Demographic analysis
 - Service usage patterns
 - Contract and payment insights
-
-*Note: Download the .pbix file to explore the interactive dashboard*
+- Interactive filters and cross-filtering
 
 ## 📫 Contact
 
 **Onur Aydındağ**
 - LinkedIn: [linkedin.com/in/onur-aydındağ](https://www.linkedin.com/in/onur-ayd%C4%B1nda%C4%9F-aa528a216/)
+- GitHub: [github.com/OnurAydindag](https://github.com/OnurAydindag)
 
 ---
 
